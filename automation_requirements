@@ -23,3 +23,5 @@ The general approach to doing this, as i understand is:
 			1. security credentialing for auth/auth?
 			2. version control is done how?
 			
+Elastic Inference:
+https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-gc.html?icmpid=docs_acc_console_connect_np 
