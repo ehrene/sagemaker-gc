@@ -1,0 +1,25 @@
+I need to build a model in sagemaker and deploy it for inferencing purposes.
+
+The general approach to doing this, as i understand is:
+	1. Build the model using jupyter notebook/lab
+		a. load training data or connect to training data
+		b. build the model (e.g. tensorflow or pytorch CNN for object detection)
+		c. train the model 
+			1. configure train/test/validation approach
+			2. monitor/measure model fit performance (MSE, MAE, cross-entropy, accuracy, etc.)
+			3. visualize the performance of the training runs
+			4. store the data for reference/analysis
+		d. test the model
+			1. test the model on test dataset and document the performance
+			2. potentially iterate on the testing data using multiple model configurations
+		e. publish the model
+			1. save model files off into model repository with appropriate attributes (e.g. documentation/owner/creator)
+			2.
+	2. Deploy the model for utilization by customer
+		a. estimate model utilization (calls/hr, compute/call, other)
+		b. determine any model updating requirements or process to set workflow for automating update/deployment
+		c. containerize the model
+		d. create model endpoints and deploy containerized model
+			1. security credentialing for auth/auth?
+			2. version control is done how?
+			
